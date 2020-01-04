@@ -1,5 +1,6 @@
 // webpack.config.js
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 // We'll refer to our source and dist paths frequently, so let's store them here
 const PATH_SOURCE = path.join(__dirname, "./src");
